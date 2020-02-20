@@ -1,19 +1,23 @@
-drpcli catalog_items
---------------------
+drpcli endpoint_connections meta
+--------------------------------
 
-Access CLI commands relating to catalog_items
+Gets metadata for the endpoint_connection
 
 Synopsis
 ~~~~~~~~
 
-Access CLI commands relating to catalog_items
+Gets metadata for the endpoint_connection
+
+::
+
+   drpcli endpoint_connections meta [id] [flags]
 
 Options
 ~~~~~~~
 
 ::
 
-     -h, --help   help for catalog_items
+     -h, --help   help for meta
 
 Options inherited from parent commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,22 +45,17 @@ Options inherited from parent commands
 SEE ALSO
 ~~~~~~~~
 
--  `drpcli <drpcli.html>`__ - A CLI application for interacting with the
-   DigitalRebar Provision API
--  `drpcli catalog_items create <drpcli_catalog_items_create.html>`__ -
-   Create a new catalog_item with the passed-in JSON or string key
--  `drpcli catalog_items destroy <drpcli_catalog_items_destroy.html>`__
-   - Destroy catalog_item by id
--  `drpcli catalog_items exists <drpcli_catalog_items_exists.html>`__ -
-   See if a catalog_items exists by id
--  `drpcli catalog_items indexes <drpcli_catalog_items_indexes.html>`__
-   - Get indexes for catalog_items
--  `drpcli catalog_items list <drpcli_catalog_items_list.html>`__ - List
-   all catalog_items
--  `drpcli catalog_items show <drpcli_catalog_items_show.html>`__ - Show
-   a single catalog_items by id
--  `drpcli catalog_items update <drpcli_catalog_items_update.html>`__ -
-   Unsafely update catalog_item by id with the passed-in JSON
--  `drpcli catalog_items wait <drpcli_catalog_items_wait.html>`__ - Wait
-   for a catalog_item’s field to become a value within a number of
-   seconds
+-  `drpcli endpoint_connections <drpcli_endpoint_connections.html>`__ -
+   Access CLI commands relating to endpoint_connections
+-  `drpcli endpoint_connections meta
+   add <drpcli_endpoint_connections_meta_add.html>`__ - Atomically add
+   [key]:[val] to the metadata on [endpoint_connections]:[id]
+-  `drpcli endpoint_connections meta
+   get <drpcli_endpoint_connections_meta_get.html>`__ - Get a specific
+   metadata item from endpoint_connection
+-  `drpcli endpoint_connections meta
+   remove <drpcli_endpoint_connections_meta_remove.html>`__ - Remove the
+   meta [key] from [endpoint_connections]:[id]
+-  `drpcli endpoint_connections meta
+   set <drpcli_endpoint_connections_meta_set.html>`__ - Set metadata
+   [key]:[val] on [endpoint_connections]:[id]

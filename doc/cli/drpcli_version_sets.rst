@@ -1,19 +1,19 @@
-drpcli catalog_items
---------------------
+drpcli version_sets
+-------------------
 
-Access CLI commands relating to catalog_items
+Access CLI commands relating to version_sets
 
 Synopsis
 ~~~~~~~~
 
-Access CLI commands relating to catalog_items
+Access CLI commands relating to version_sets
 
 Options
 ~~~~~~~
 
 ::
 
-     -h, --help   help for catalog_items
+     -h, --help   help for version_sets
 
 Options inherited from parent commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,20 +43,27 @@ SEE ALSO
 
 -  `drpcli <drpcli.html>`__ - A CLI application for interacting with the
    DigitalRebar Provision API
--  `drpcli catalog_items create <drpcli_catalog_items_create.html>`__ -
-   Create a new catalog_item with the passed-in JSON or string key
--  `drpcli catalog_items destroy <drpcli_catalog_items_destroy.html>`__
-   - Destroy catalog_item by id
--  `drpcli catalog_items exists <drpcli_catalog_items_exists.html>`__ -
-   See if a catalog_items exists by id
--  `drpcli catalog_items indexes <drpcli_catalog_items_indexes.html>`__
-   - Get indexes for catalog_items
--  `drpcli catalog_items list <drpcli_catalog_items_list.html>`__ - List
-   all catalog_items
--  `drpcli catalog_items show <drpcli_catalog_items_show.html>`__ - Show
-   a single catalog_items by id
--  `drpcli catalog_items update <drpcli_catalog_items_update.html>`__ -
-   Unsafely update catalog_item by id with the passed-in JSON
--  `drpcli catalog_items wait <drpcli_catalog_items_wait.html>`__ - Wait
-   for a catalog_item’s field to become a value within a number of
+-  `drpcli version_sets action <drpcli_version_sets_action.html>`__ -
+   Display the action for this version_set
+-  `drpcli version_sets actions <drpcli_version_sets_actions.html>`__ -
+   Display actions for this version_set
+-  `drpcli version_sets create <drpcli_version_sets_create.html>`__ -
+   Create a new version_set with the passed-in JSON or string key
+-  `drpcli version_sets destroy <drpcli_version_sets_destroy.html>`__ -
+   Destroy version_set by id
+-  `drpcli version_sets exists <drpcli_version_sets_exists.html>`__ -
+   See if a version_sets exists by id
+-  `drpcli version_sets indexes <drpcli_version_sets_indexes.html>`__ -
+   Get indexes for version_sets
+-  `drpcli version_sets list <drpcli_version_sets_list.html>`__ - List
+   all version_sets
+-  `drpcli version_sets
+   runaction <drpcli_version_sets_runaction.html>`__ - Run action on
+   object from plugin
+-  `drpcli version_sets show <drpcli_version_sets_show.html>`__ - Show a
+   single version_sets by id
+-  `drpcli version_sets update <drpcli_version_sets_update.html>`__ -
+   Unsafely update version_set by id with the passed-in JSON
+-  `drpcli version_sets wait <drpcli_version_sets_wait.html>`__ - Wait
+   for a version_set’s field to become a value within a number of
    seconds

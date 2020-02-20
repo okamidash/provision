@@ -1,19 +1,19 @@
-drpcli catalog_items
---------------------
+drpcli endpoints
+----------------
 
-Access CLI commands relating to catalog_items
+Access CLI commands relating to endpoints
 
 Synopsis
 ~~~~~~~~
 
-Access CLI commands relating to catalog_items
+Access CLI commands relating to endpoints
 
 Options
 ~~~~~~~
 
 ::
 
-     -h, --help   help for catalog_items
+     -h, --help   help for endpoints
 
 Options inherited from parent commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,20 +43,37 @@ SEE ALSO
 
 -  `drpcli <drpcli.html>`__ - A CLI application for interacting with the
    DigitalRebar Provision API
--  `drpcli catalog_items create <drpcli_catalog_items_create.html>`__ -
-   Create a new catalog_item with the passed-in JSON or string key
--  `drpcli catalog_items destroy <drpcli_catalog_items_destroy.html>`__
-   - Destroy catalog_item by id
--  `drpcli catalog_items exists <drpcli_catalog_items_exists.html>`__ -
-   See if a catalog_items exists by id
--  `drpcli catalog_items indexes <drpcli_catalog_items_indexes.html>`__
-   - Get indexes for catalog_items
--  `drpcli catalog_items list <drpcli_catalog_items_list.html>`__ - List
-   all catalog_items
--  `drpcli catalog_items show <drpcli_catalog_items_show.html>`__ - Show
-   a single catalog_items by id
--  `drpcli catalog_items update <drpcli_catalog_items_update.html>`__ -
-   Unsafely update catalog_item by id with the passed-in JSON
--  `drpcli catalog_items wait <drpcli_catalog_items_wait.html>`__ - Wait
-   for a catalog_item’s field to become a value within a number of
-   seconds
+-  `drpcli endpoints action <drpcli_endpoints_action.html>`__ - Display
+   the action for this endpoint
+-  `drpcli endpoints actions <drpcli_endpoints_actions.html>`__ -
+   Display actions for this endpoint
+-  `drpcli endpoints add <drpcli_endpoints_add.html>`__ - Add the
+   endpoints param *key* to *blob*
+-  `drpcli endpoints create <drpcli_endpoints_create.html>`__ - Create a
+   new endpoint with the passed-in JSON or string key
+-  `drpcli endpoints destroy <drpcli_endpoints_destroy.html>`__ -
+   Destroy endpoint by id
+-  `drpcli endpoints exists <drpcli_endpoints_exists.html>`__ - See if a
+   endpoints exists by id
+-  `drpcli endpoints get <drpcli_endpoints_get.html>`__ - Get a
+   parameter from the endpoint
+-  `drpcli endpoints indexes <drpcli_endpoints_indexes.html>`__ - Get
+   indexes for endpoints
+-  `drpcli endpoints list <drpcli_endpoints_list.html>`__ - List all
+   endpoints
+-  `drpcli endpoints meta <drpcli_endpoints_meta.html>`__ - Gets
+   metadata for the endpoint
+-  `drpcli endpoints params <drpcli_endpoints_params.html>`__ -
+   Gets/sets all parameters for the endpoint
+-  `drpcli endpoints remove <drpcli_endpoints_remove.html>`__ - Remove
+   the param *key* from endpoints
+-  `drpcli endpoints runaction <drpcli_endpoints_runaction.html>`__ -
+   Run action on object from plugin
+-  `drpcli endpoints set <drpcli_endpoints_set.html>`__ - Set the
+   endpoints param *key* to *blob*
+-  `drpcli endpoints show <drpcli_endpoints_show.html>`__ - Show a
+   single endpoints by id
+-  `drpcli endpoints update <drpcli_endpoints_update.html>`__ - Unsafely
+   update endpoint by id with the passed-in JSON
+-  `drpcli endpoints wait <drpcli_endpoints_wait.html>`__ - Wait for a
+   endpoint’s field to become a value within a number of seconds

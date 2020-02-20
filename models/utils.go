@@ -86,6 +86,10 @@ func All() []Model {
 		&Workflow{},
 		&Tenant{},
 		&Pool{},
+		&Endpoint{},
+		&EndpointConnection{},
+		&VersionSet{},
+		&CatalogItem{},
 	}
 }
 

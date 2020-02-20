@@ -1116,7 +1116,6 @@ func UserSessionToken(endpoint, username, password string, usetoken bool) (*Clie
 // UserSessionTokenProxy allows for the token conversion turned off and turn off local proxy
 func UserSessionTokenProxy(endpoint, username, password string, usetoken, useproxy bool) (*Client, error) {
 	tr := transport(useproxy)
-
 	c := &Client{
 		mux:        &sync.Mutex{},
 		endpoint:   endpoint,
